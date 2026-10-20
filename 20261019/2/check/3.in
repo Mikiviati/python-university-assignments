@@ -1,0 +1,5 @@
+:calc a b c a*b+c
+calc 2 3 4
+calc -1 5 10
+calc 0 100 7
+quit "{} functions, {} lines"

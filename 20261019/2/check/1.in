@@ -1,0 +1,4 @@
+:decorate s "<{}>".format(s)
+decorate "Hello world"
+decorate "Python"
+quit "Functions: {}, Lines: {}"

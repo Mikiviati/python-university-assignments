@@ -1,0 +1,5 @@
+:combine a b c d (a+b)*(c-d)
+combine 2 3 10 4
+combine 1 2 8 3
+combine -2 5 7 7
+quit "{}:{}"
