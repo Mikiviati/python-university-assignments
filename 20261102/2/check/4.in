@@ -1,0 +1,1 @@
+print(*list(slide([None, 1, None], 2)))
