@@ -1,0 +1,6 @@
+10 20
+False
+not found
+20
+AttributeError: 'Omnibus' object has no attribute '_secret'
+2 2

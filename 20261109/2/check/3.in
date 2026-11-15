@@ -1,0 +1,8 @@
+t1 = Triangle((0, 0), (4, 0), (0, 4))
+t2 = Triangle((1, 1), (2, 1), (1, 2))
+t3 = Triangle((2, 2), (5, 2), (2, 5))
+t4 = Triangle((5, 5), (6, 5), (5, 6))
+print(f"{t2 < t1} {t3 < t1} {t4 < t1} {t1 < t2}")
+print(f"{t2 in t1} {t3 in t1} {t4 in t1} {t1 in t2}")
+print(f"{t1 & t2} {t1 & t3} {t1 & t4} {t2 & t4}")
+print(f"{round(abs(t1), 3)} {round(abs(t2), 3)} {round(abs(t3), 3)}")

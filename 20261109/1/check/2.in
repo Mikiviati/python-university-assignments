@@ -1,0 +1,15 @@
+x, y = Omnibus(), Omnibus()
+x._secret = 10
+y._secret = 20
+print(x._secret, y._secret)
+print(x._secret == y._secret)
+print(Omnibus._counts.get('_secret', 'not found'))
+del x._secret
+print(y._secret)
+try:
+    print(x._secret)
+except AttributeError as e:
+    print("AttributeError:", e)
+x.pub = 1
+y.pub = 2
+print(x.pub, y.pub)
