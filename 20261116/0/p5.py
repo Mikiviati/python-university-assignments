@@ -1,0 +1,7 @@
+while True:
+    try:
+        res = int(input("Type integer->"))
+    except ValueError:
+        print("Type whole number")
+    else:
+        break

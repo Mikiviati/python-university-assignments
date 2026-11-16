@@ -1,0 +1,14 @@
+class A:
+    v = 1
+
+class B:
+    v = 2
+
+b = B()
+b.v = 3
+print(b.v)
+del b.v
+print(B.v)
+del B.v
+print(A.v)
+del A.v

@@ -1,0 +1,13 @@
+def itemget(collection, index):
+    return collection[index]
+
+
+def safeindex(fun, *args):
+    try:
+        fun(*args)
+    except IndexError:
+        return None
+
+
+print([safeindex(itemget, "qwe", i) for i in range(5)])
+print(safeindex(itemget, "qwe", "qwe"))
