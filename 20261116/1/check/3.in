@@ -1,0 +1,4 @@
+a = DivStr("XcDfQWEasdERTdfgRTY")
+it = a // 3
+print(*next(it) // 2)
+print("".join(map(str, a // 5)) + str(a % 5) == str(a))

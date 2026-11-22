@@ -1,0 +1,3 @@
+b = DivStr("abcdef")
+print(repr(b % 3))
+print(*b // 8, repr(b % 8), sep="|")
